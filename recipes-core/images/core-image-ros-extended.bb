@@ -13,4 +13,4 @@ IMAGE_ROOTFS_SIZE = "8192"
 # remove not needed ipkg informations
 ROOTFS_POSTPROCESS_COMMAND += "remove_packaging_data_files"
 
-IMAGE_INSTALL += "roslaunch linux-fslc"
+IMAGE_INSTALL += "roslaunch"
