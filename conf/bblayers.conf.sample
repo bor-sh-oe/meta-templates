@@ -10,7 +10,7 @@ BBLAYERS ?= " \
   ##OEROOT##/meta-yocto \
   ##OEROOT##/meta-openembedded/meta-oe \
   ##OEROOT##/meta-ros \
-  ##OEROOT##/meta-freescale-ros \
+  ##OEROOT##/meta-templates \
   ##OEROOT##/meta-fsl-arm \
   "
 BBLAYERS_NON_REMOVABLE ?= " \
